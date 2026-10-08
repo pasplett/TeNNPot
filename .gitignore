@@ -1,0 +1,72 @@
+# Temporary and binary files
+*~
+*.py[cod]
+*.so
+*.cfg
+!.isort.cfg
+!setup.cfg
+*.orig
+*.log
+*.pot
+__pycache__/*
+.cache/*
+.*.swp
+*/.ipynb_checkpoints/*
+.DS_Store
+
+# Project files
+.ropeproject
+.project
+.pydevproject
+.settings
+.idea
+.vscode
+tags
+
+# Package files
+*.egg
+*.eggs/
+.installed.cfg
+*.egg-info
+
+# Unittest and coverage
+htmlcov/*
+.coverage
+.coverage.*
+.tox
+junit*.xml
+coverage.xml
+.pytest_cache/
+.pytest_tmp/
+.tmp_pytest*/
+.tmp_*/
+.tennpot-cache/
+mlruns/
+mlflow.db
+results/
+runs/
+
+# Build outputs
+build/*
+dist/*
+sdist/*
+cover/*
+MANIFEST
+
+# Per-project virtualenvs
+.venv*/
+.conda*/
+.python-version
+
+# Research datasets remain local.
+data/
+
+# Local secrets and temporary files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+tmp/

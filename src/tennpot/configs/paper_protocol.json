@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "epochs": 50,
+  "batch_size": 20,
+  "learning_rate": 0.001,
+  "adam_beta1": 0.9,
+  "adam_beta2": 0.999,
+  "energy_weight": 0.5,
+  "force_weight": 0.5,
+  "early_stopping_patience": null,
+  "seed": 42,
+  "deterministic": false,
+  "mlflow_enabled": false,
+  "mlflow_tracking_uri": null,
+  "mlflow_experiment": "TeNNPot",
+  "mlflow_run_name": null
+}

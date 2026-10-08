@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "model_id": "tennpot-silicon-2023",
+  "model_name": "TeNNPot silicon model from Communications Materials 4, 63 (2023)",
+  "paper_doi": "10.1038/s43246-023-00389-w",
+  "checkpoint_file": "silicon_2023.pt",
+  "checkpoint_format_version": 1,
+  "checkpoint_sha256": "937494642d2fd1c58a285ec88978f89b697f09fecb262363a8e772ea0335e5d9",
+  "source_framework": "TensorFlow 2.5",
+  "source_files_sha256": {
+    "weights_74_50.txt": "d282e92d6b4e2194a7a5cbeacc149d9ed2f4c89e8f912f8f1fd2d6283f2a9fa7",
+    "weights_50_50.txt": "e29c503128e5db3dadce865eb6239af69394d0c40ebbe38156877a1a6a0b5e10",
+    "weights_50_1.txt": "9edfc9c00c422b90846c3e0934fee83f172fca6876148dcd7320e0ae953ef68b"
+  },
+  "element": "Si",
+  "canonical_dtype": "float64",
+  "energy_reference": "cohesive Helmholtz free energy",
+  "length_unit": "Bohr",
+  "energy_unit": "Ha",
+  "force_unit": "Ha/Bohr",
+  "electronic_temperature_unit": "0.1 Ha",
+  "training_temperature_range_mha": [1.0, 100.0]
+}

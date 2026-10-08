@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use TeNNPot, please cite the associated article."
+title: "TeNNPot"
+type: software
+authors:
+  - family-names: "Plettenberg"
+    given-names: "Pascal"
+    email: "plettenberg@uni-kassel.de"
+repository-code: "https://github.com/pasplett/TeNNPot"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Neural network interatomic potential for laser-excited materials"
+  authors:
+    - family-names: "Plettenberg"
+      given-names: "Pascal"
+    - family-names: "Bauerhenne"
+      given-names: "Bernd"
+    - family-names: "Garcia"
+      given-names: "Martin E."
+  journal: "Communications Materials"
+  volume: 4
+  year: 2023
+  doi: "10.1038/s43246-023-00389-w"

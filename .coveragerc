@@ -1,0 +1,9 @@
+[run]
+branch = True
+omit =
+    */tennpot/cli/reproduce_fig3.py
+    */tennpot/tracking.py
+
+[report]
+show_missing = True
+skip_covered = False

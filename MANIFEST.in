@@ -1,0 +1,17 @@
+include LICENSE AUTHORS.rst CONTRIBUTING.rst README.rst CITATION.cff MODEL_CARD.md RESEARCH_WORKFLOW.md
+include graphical_abstract.png pyproject.toml setup.cfg setup.py
+include .coveragerc .isort.cfg .pre-commit-config.yaml .gitignore
+recursive-include .github *.yml
+recursive-include src/tennpot *.py *.json *.pt
+recursive-include tests *.py *.npz *.md
+recursive-include examples *.py *.extxyz
+prune data
+prune build
+prune dist
+prune runs
+prune results
+prune mlruns
+prune tmp
+prune .tmp*
+exclude src/*.egg-info/*.json
+global-exclude __pycache__ *.py[cod] .env .env.* *.pem *.key *.p12 *.pfx

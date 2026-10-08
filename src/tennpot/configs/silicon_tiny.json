@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "name": "silicon_tiny",
+  "radial_cutoff_radii": [5.0, 5.5, 6.0],
+  "angular_cutoff_radii": [],
+  "angular_lambda": [],
+  "angular_zeta": [],
+  "scale_factors": [1.0, 1.0, 1.0],
+  "periodic": [true, true, false],
+  "cell": [20.4042, 20.4042, 204.042],
+  "hidden_nodes": [8],
+  "activations": ["tanh"],
+  "dtype": "float32",
+  "element": "Si",
+  "energy_reference": "cohesive",
+  "training_temperature_range_mha": [1.0, 100.0]
+}
